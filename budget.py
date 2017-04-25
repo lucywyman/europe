@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
-flights = [600, 34, 40, 912]
-rooms = [186, 206, 257, 211]
+flights = [600, 34, 88, 912]
+rooms = [158, 154, 193, 105]
+things = []
 food = []
-events = []
+events = [16.84, 22.5, 9.14, 65, 16]
 gifts = []
 
 if __name__ == "__main__":
@@ -18,4 +19,4 @@ if __name__ == "__main__":
 	print("Food: $" + str(food_cost))
 	print("Events: $" + str(events_cost))
 	print("Gifts: $" + str(gifts_cost))
-	print("Total: $" + str(total))
+	print("Total (per person): $" + str(total))
